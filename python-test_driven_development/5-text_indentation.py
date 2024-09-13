@@ -16,21 +16,17 @@ def text_indentation(text):
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
+
+    text = text.strip()
     
-    special_chars = ['.', '?', ':']
-    result = ""
     i = 0
-    
     while i < len(text):
-        result += text[i]
-        if text[i] in special_chars:
-            result += "\n\n"
+        print(text[i], end="")
+        if text[i] in ['.', '?', ':']:
+            print("\n")
+            
             i += 1
-            # Skip any spaces after the special character
             while i < len(text) and text[i] == ' ':
                 i += 1
             continue
         i += 1
-    
-    # Print the final result, stripping leading/trailing spaces
-    print(result.strip())
