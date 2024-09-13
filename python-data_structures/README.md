@@ -7,7 +7,6 @@ This repository contains projects related to more advanced data structures in Py
 - [Requirements](#requirements)
 - [Files](#files)
 - [Usage](#usage)
-- [Author](#author)
 
 ## Requirements
 
