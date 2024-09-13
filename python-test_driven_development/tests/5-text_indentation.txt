@@ -2,44 +2,44 @@
 Test cases for text_indentation function
 ============================
 
->>> text_indentation("Hello world.")
-Hello world.
+>>> text_indentation("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere?")
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
->>> text_indentation("Hello? Yes!")
-Hello?
+Quonam modo?
 
-Yes!
+Utrum igitur tibi litteram videor an totas paginas commovere?
 
->>> text_indentation("This is a test: or is it?")
-This is a test:
+>>> text_indentation("Non autem hoc: igitur ne illud quidem.")
+Non autem hoc:
 
-or is it?
+igitur ne illud quidem.
 
->>> text_indentation("No punctuation here")
-No punctuation here
+>>> text_indentation("Fortasse id optimum, sed ubi illud: Plus semper voluptatis? Teneo, inquit, finem illi videri nihil dolere.")
+Fortasse id optimum, sed ubi illud:
 
->>> text_indentation("Spaces after punctuation.  Another sentence?")
-Spaces after punctuation.
+Plus semper voluptatis?
 
-Another sentence?
+Teneo, inquit, finem illi videri nihil dolere.
+
+>>> text_indentation("Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens. Si id dicis, vicimus.")
+Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens.
+
+Si id dicis, vicimus.
+
+>>> text_indentation("Inde sermone vario sex illa a Dipylo stadia confecimus. Sin aliud quid voles, postea.")
+Inde sermone vario sex illa a Dipylo stadia confecimus.
+
+Sin aliud quid voles, postea.
+
+>>> text_indentation("Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres.")
+Utinam quidem dicerent alium alio beatiorem!
+
+Iam ruinas videres.
+
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
 
 >>> text_indentation("")
 # No output expected
-
->>> text_indentation("End with punctuation.")
-End with punctuation.
-
->>> text_indentation(12345)
-Traceback (most recent call last):
-    ...
-TypeError: text must be a string
-
->>> text_indentation(None)
-Traceback (most recent call last):
-    ...
-TypeError: text must be a string
-
->>> text_indentation(["Not a string"])
-Traceback (most recent call last):
-    ...
-TypeError: text must be a string

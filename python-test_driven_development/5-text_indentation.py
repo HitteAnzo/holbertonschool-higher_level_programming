@@ -1,31 +1,35 @@
 #!/usr/bin/python3
 """
-This module contains the function text_indentation which prints text
-with two new lines after specific punctuation marks ('.', '?', ':').
+This module defines the function text_indentation.
 """
 
 
 def text_indentation(text):
     """
-    Prints a string with two new lines after each '.', '?' and ':'.
+    Prints a text with 2 new lines.
+    After each of these characters: '.', '?' and ':'.
     Args:
-        text (str): The string to be processed.
+        text (str): The text to be processed.
     Raises:
-        TypeError: If the input text is not a string.
+        TypeError: If the text is not a string.
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
     text = text.strip()
 
-    i = 0
-    while i < len(text):
-        print(text[i], end="")
-        if text[i] in ['.', '?', ':']:
-            print("\n")
+    result = ""
+    skip_space = False
 
-            i += 1
-            while i < len(text) and text[i] == ' ':
-                i += 1
+    for char in text:
+        if skip_space and char == ' ':
             continue
-        i += 1
+
+        result += char
+        skip_space = False
+
+        if char in ".?:":
+            result += "\n\n"
+            skip_space = True
+
+    print(result.strip(), end="")
