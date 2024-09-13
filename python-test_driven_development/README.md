@@ -7,7 +7,6 @@ This repository contains projects related to Python Test-Driven Development (TDD
 - [Requirements](#requirements)
 - [Files](#files)
 - [Usage](#usage)
-- [Author](#author)
 
 ## Requirements
 
