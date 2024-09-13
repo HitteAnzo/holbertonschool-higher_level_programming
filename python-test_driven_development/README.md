@@ -25,11 +25,8 @@ This repository contains projects related to Python Test-Driven Development (TDD
 | `3-say_my_name.py` | Prints a name in the format "My name is <first name> <last name>". |
 | `4-print_square.py` | Prints a square of `#` characters of a given size. |
 | `5-text_indentation.py` | Adds two new lines after each of these characters: `.`, `?`, and `:`. |
-| `tests/` | Directory containing unit tests for each function. |
 | `6-max_integer.py` | Finds and returns the maximum integer in a list. |
-| `100-matrix_mul.py` | Multiplies two matrices. |
-| `101-lazy_matrix_mul.py` | Multiplies two matrices using NumPy. |
-| `102-python.c` | C function that prints basic info about Python lists and bytes objects. |
+| `tests/` | Directory containing unit tests for each function. |
 
 ## Usage
 
