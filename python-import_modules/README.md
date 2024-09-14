@@ -7,7 +7,7 @@ This repository contains projects related to Python's import system and the use 
 - [Requirements](#requirements)
 - [Files](#files)
 - [Usage](#usage)
-- 
+
 ## Requirements
 
 - Python 3.x
