@@ -1,6 +1,6 @@
-# Python - More Data Structures: Set, Dictionary
+# Python - Data Structures: Lists, Tuples
 
-This repository contains projects related to more advanced data structures in Python, specifically sets and dictionaries. Each project focuses on the application and manipulation of these data structures.
+This repository contains projects focusing on Python data structures, particularly lists and tuples. Each project includes different operations and manipulations that can be performed on these structures.
 
 ## Table of Contents
 
@@ -17,23 +17,23 @@ This repository contains projects related to more advanced data structures in Py
 
 | Filename | Description |
 | -------- | ----------- |
-| `0-square_matrix_simple.py` | Computes the square value of all integers of a matrix. |
-| `1-search_replace.py` | Replaces all occurrences of an element by another in a new list. |
-| `2-uniq_add.py` | Adds all unique integers in a list. |
-| `3-common_elements.py` | Returns a set of common elements in two sets. |
-| `4-only_diff_elements.py` | Returns a set of all elements present in only one set. |
-| `5-number_keys.py` | Returns the number of keys in a dictionary. |
-| `6-print_sorted_dictionary.py` | Prints a dictionary by ordered keys. |
-| `7-update_dictionary.py` | Replaces or adds key/value pairs in a dictionary. |
-| `8-simple_delete.py` | Deletes a key in a dictionary. |
-| `9-multiply_by_2.py` | Returns a new dictionary with all values multiplied by 2. |
-| `10-best_score.py` | Returns a key with the biggest integer value. |
-| `11-mutiply_list_map.py` | Returns a list with all values multiplied by a number using `map`. |
-| `12-roman_to_int.py` | Converts a Roman numeral to an integer. |
+| `0-print_list_integer.py` | Prints all integers in a list. |
+| `1-element_at.py` | Retrieves an element from a list like in C. |
+| `2-replace_in_list.py` | Replaces an element of a list at a specific position. |
+| `3-print_reversed_list_integer.py` | Prints all integers of a list, in reverse order. |
+| `4-new_in_list.py` | Replaces an element in a list without modifying the original list. |
+| `5-no_c.py` | Removes all characters 'c' and 'C' from a string. |
+| `6-print_matrix_integer.py` | Prints a matrix of integers. |
+| `7-add_tuple.py` | Adds two tuples. |
+| `8-multiple_returns.py` | Returns the length of a string and its first character in a tuple. |
+| `9-max_integer.py` | Finds the biggest integer in a list. |
+| `10-divisible_by_2.py` | Finds all multiples of 2 in a list. |
+| `11-delete_at.py` | Deletes the item at a specific position in a list. |
+| `12-switch.py` | Switches the value of two variables. |
 
 ## Usage
 
-To run any of the Python scripts, use the following command:
+To run the Python scripts, use:
 
 ```bash
 $ python3 <filename>.py
