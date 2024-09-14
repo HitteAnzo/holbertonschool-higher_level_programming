@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-empty
-=======
+
 # Python - Test-Driven Development (TDD)
 
 This repository contains projects related to Python Test-Driven Development (TDD). Each project demonstrates the use of TDD methodology to write tests before implementing functions, ensuring correctness and robustness of the code.
@@ -42,4 +40,3 @@ To run doctests (embedded tests in the docstrings):
 ```bash
 $ python3 -m doctest <filename>.py
 ```
->>>>>>> c53ba0dc31b078667e722636ede4ea1ffddeda45
