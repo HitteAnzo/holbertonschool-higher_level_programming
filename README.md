@@ -21,7 +21,6 @@ This repository contains various projects and exercises completed as part of the
 - Python 3.x
 - C (for certain projects)
 - PEP 8 style guide for Python
-- GCC compiler for C projects
 
 ## Projects
 
