@@ -1,0 +1,82 @@
+# Test cases for the MyList class and print_sorted method
+
+# Test 1: Empty list
+my_list = MyList()
+# Expected output: []
+print(my_list)
+# Expected output: []
+my_list.print_sorted()
+# Expected output: []
+print(my_list)
+
+# Test 2: List with one element
+my_list.append(10)
+# Expected output: [10]
+print(my_list)
+# Expected output: [10]
+my_list.print_sorted()
+# Expected output: [10]
+print(my_list)
+
+# Test 3: List with multiple elements, unsorted
+my_list.append(2)
+my_list.append(5)
+my_list.append(3)
+my_list.append(1)
+my_list.append(4)
+# Expected output: [10, 2, 5, 3, 1, 4]
+print(my_list)
+# Expected sorted output: [1, 2, 3, 4, 5, 10]
+my_list.print_sorted()
+# Original list should remain unchanged
+# Expected output: [10, 2, 5, 3, 1, 4]
+print(my_list)
+
+# Test 4: List already sorted
+my_sorted_list = MyList([1, 2, 3, 4, 5])
+# Expected output: [1, 2, 3, 4, 5]
+print(my_sorted_list)
+# Expected output: [1, 2, 3, 4, 5]
+my_sorted_list.print_sorted()
+# Expected output: [1, 2, 3, 4, 5]
+print(my_sorted_list)
+
+# Test 5: List in reverse order
+my_reverse_list = MyList([5, 4, 3, 2, 1])
+# Expected output: [5, 4, 3, 2, 1]
+print(my_reverse_list)
+# Expected sorted output: [1, 2, 3, 4, 5]
+my_reverse_list.print_sorted()
+# Original list should remain unchanged
+# Expected output: [5, 4, 3, 2, 1]
+print(my_reverse_list)
+
+# Test 6: List with duplicate elements
+my_duplicates_list = MyList([3, 1, 2, 3, 4, 1])
+# Expected output: [3, 1, 2, 3, 4, 1]
+print(my_duplicates_list)
+# Expected sorted output: [1, 1, 2, 3, 3, 4]
+my_duplicates_list.print_sorted()
+# Original list should remain unchanged
+# Expected output: [3, 1, 2, 3, 4, 1]
+print(my_duplicates_list)
+
+# Test 7: Large list of elements
+my_large_list = MyList(range(100, 0, -10))
+# Expected output: [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
+print(my_large_list)
+# Expected sorted output: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+my_large_list.print_sorted()
+# Original list should remain unchanged
+# Expected output: [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
+print(my_large_list)
+
+# Test 8: List with negative numbers
+my_negative_list = MyList([10, -10, 5, -5, 0])
+# Expected output: [10, -10, 5, -5, 0]
+print(my_negative_list)
+# Expected sorted output: [-10, -5, 0, 5, 10]
+my_negative_list.print_sorted()
+# Original list should remain unchanged
+# Expected output: [10, -10, 5, -5, 0]
+print(my_negative_list)
