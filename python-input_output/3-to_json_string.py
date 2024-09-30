@@ -6,6 +6,7 @@ Module that contains a function to return the JSON representation.
 
 import json
 
+
 def to_json_string(my_obj):
     """
     Returns the JSON representation of an object (string).
