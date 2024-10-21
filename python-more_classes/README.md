@@ -10,7 +10,7 @@ This repository contains Python projects focusing on advanced object-oriented pr
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 - PEP 8 style guide
 
 ## Files
