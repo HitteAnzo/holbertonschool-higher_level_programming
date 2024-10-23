@@ -10,7 +10,7 @@ This repository contains projects focusing on Python data structures, particular
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 - PEP 8 style guide
 
 ## Files
